@@ -1,5 +1,22 @@
 h1 {
 	text-align: center;
-	color: lightblue;
+	color: aliceblue;
 	
+}
+img {
+	display: flex;
+	max-width: 2000px;
+	max-height: 1100px;
+	align-items: stretch;
+	justify-content: center;
+	background-image: center;
+	opacity: .7;
+}	
+
+body {
+	background-color: black;
+	
+}
+footer {
+	color: aliceblue;
 }
