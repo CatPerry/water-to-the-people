@@ -1,23 +1,52 @@
 h1 {
 	text-align: center;
-	color: lightblue;
-	
+	color: white;
+	position: absolute;
+	top: 25px;
+	left: 350px;
+	opacity: 1;	
+	font-size: 5em;
+	font-family: sans-serif;
+}
+
+h2 {
+	font-size: 3em;
+	font-family: sans-serif;
 }
 img {
 	display: flex;
-	max-width: 2000px;
+	flex-grow: 1;
+	flex-basis: auto;
 	max-height: 1100px;
 	align-items: stretch;
-	justify-content: center;
+	justify-content: space-between;
 	background-image: center;
-	opacity: .7;
-	
+	opacity: 0.7;
 }	
 
 body {
 	background-color: black;
-	
 }
-footer {
+
+.text {
+	background-color: white;
+	opacity: white;
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	opacity: 0.7;
+	padding: 2em;
+	font-size: 1.2em;
+}
+
+.footer {
 	color: lightcyan;
+	font-size: 1em;
+}
+
+@media (min-width: 150px) and (max-width: 600px) {
+	img {
+		display: flex;
+		height: auto;
+	}
 }
